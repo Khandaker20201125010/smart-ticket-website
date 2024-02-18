@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P-Ticket</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P-Ticket</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="scripts/ticket.js"></script>
+  <html data-theme="light">
+
+  </html>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="Raleway">
+  <header class="lg:container lg:m-auto ">
+    <nav>
+      <div class="navbar bg-base-100 m-6">
+        <div class="navbar-start">
+          <a class="text-4xl  font-bold">P-Ticket</a>
+        </div>
+        <div class="navbar-center lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Bus</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-green-200 text-green-500 font-semibold mr-8">Bus<img class="" src="./images/bus-icon.png"
+              alt=""></a>
+        </div>
+      </div>
+    </nav>
+    <section class="dang w-full bg-cover bg-rad rounded-2xl">
+      <div class="items-center ">
+        <div class="items-center">
+          <h1 class="font-extrabold text-6xl text-center pt-24 flex flex-col gap-5 text-white">End-to-End Travel with
+            <span class="text-green-500">Persia-Paribahan</span>
+          </h1>
+          <p class="w-96 text-lg text-center items-center m-auto pt-10 text-white">Let's travel the world together and
+            enjoy every moment of life </p>
+        </div>
+        <div class="w-full text-center mt-10">
+          <button onclick="getTicket()"class="btn btn-outline font-semibold items-center w-44  text-black bg-green-600 lg:btn-lg">Buy
+            Tickets</button>
+        </div>
+      </div>
+
+    </section>
+    <div class="text-center mt-28 ">
+      <h1 class="text-4xl font-bold">Best offers for you</h1>
+    </div>
+    <div class="coupon-container">
+      <div class="mt-10 bg-yellow-500 flex w-[580px] h-[220px] rounded-3xl outline-offset-2 ">
+        <div class="text-center m-16">
+          <h1 class="text-4xl font-bold text-amber-950">15% OFF</h1>
+          <p class="w-[180px] pb-12 text-amber-950 text-base"><span class="font-bold text-amber-900 ">on your next purchase</span> use by January 2024</p>
+        </div>
+        <div class="text-right ">
+          <div class="m-20 text-center ">
+            <h1 class="text-xl font-bold ">NEW <span class=""></span>15</h1>
+            <p class="w-[180px] mt-2 text-amber-900"> Coupon Code</p>
+            <div class="circle"></div>
+            <div class="line"></div>
+            <div class="line inline-block h-1 w-32 mx-auto bg-black"></div>
+            <div class="circle2"></div>
+
+          </div>
+        </div>
+      </div>
+     
+      <div>
+
+      </div>
+    </div>
+
+
+  </header>
+  <main>
+    <section id="paribahan" class="dolf">
+
+      <div class="text-center mt-10">
+
+        <h1 class="text-4xl font-bold">P.H Paribahan</h1>
+        <p class=" text-gray-400 text-base  font-medium mt-5">Yes, you can run unit tests and view the results directly
+          within the app. The integrated testing features allow for a streamlined .</p>
+      </div>
+      <div class="m">
+        <div>
+
+
+        </div>
+        <div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+
 </body>
+
 </html>
